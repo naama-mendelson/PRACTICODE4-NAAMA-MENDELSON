@@ -26,7 +26,7 @@ builder.Services.AddCors(options =>
 // DATABASE CONFIGURATION
 // =======================================
 var connectionString =
-  builder.Configuration.GetConnectionString("ToDoDB")
+    builder.Configuration.GetConnectionString("ToDoDB")
     ?? Environment.GetEnvironmentVariable("DEFAULT_CONNECTION")
     ?? "server=localhost;user=root;password=1234;database=ToDoDB";
 
@@ -46,8 +46,7 @@ var app = builder.Build();
 // =======================================
 app.UseCors("AllowAll");
 
-// Swagger enabled in Development AND Production for debugging
-if (app.Environment.IsDevelopment() || !app.Environment.IsProduction())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
@@ -87,7 +86,7 @@ app.MapPut("/items/{id}", async (int id, Item updated, ToDoDbContext db) =>
 
 app.MapDelete("/items/{id}", async (int id, ToDoDbContext db) =>
 {
-    var item = await db.Items.FindAsync(id);
+  var item = await db.Items.FindAsync(id);
     if (item is null) return Results.NotFound();
 
     db.Items.Remove(item);
