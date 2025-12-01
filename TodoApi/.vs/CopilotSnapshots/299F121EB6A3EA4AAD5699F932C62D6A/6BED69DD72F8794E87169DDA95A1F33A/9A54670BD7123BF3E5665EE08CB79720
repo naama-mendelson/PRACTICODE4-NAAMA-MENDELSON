@@ -1,7 +1,4 @@
-{
-  "ConnectionStrings": {
-    "ToDoDB": "server=localhost;user=root;password=1234;database=ToDoDB"
-  },
+﻿{
   "Logging": {
     "LogLevel": {
       "Default": "Information",
