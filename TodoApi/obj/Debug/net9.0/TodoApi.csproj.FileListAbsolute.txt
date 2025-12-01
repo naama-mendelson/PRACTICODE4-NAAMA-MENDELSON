@@ -126,3 +126,8 @@ E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\obj\Debug\net9.0\refint
 E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\obj\Debug\net9.0\TodoApi.pdb
 E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\obj\Debug\net9.0\TodoApi.genruntimeconfig.cache
 E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\obj\Debug\net9.0\ref\TodoApi.dll
+E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\פרקטיקוד\PRACTICODE_4_NAAMA_MENDELOSN\TodoApi\obj\Debug\net9.0\TodoApi.MvcApplicationPartsAssemblyInfo.cs

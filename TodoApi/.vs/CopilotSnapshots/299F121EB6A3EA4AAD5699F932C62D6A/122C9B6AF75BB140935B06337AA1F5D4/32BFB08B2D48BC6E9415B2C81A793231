@@ -26,7 +26,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// CORS BEFORE ROUTING AND ENDPOINTS
+// *** MUST BE FIRST ***
+app.UseRouting();
+
+// *** CORS MUST BE AFTER ROUTING ***
 app.UseCors("AllowAll");
 
 // swagger
